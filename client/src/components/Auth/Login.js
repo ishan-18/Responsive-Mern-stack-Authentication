@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {Link, useHistory} from 'react-router-dom';
+import {FaHamburger} from 'react-icons/fa'
 
 function Login() {
 
@@ -30,6 +31,7 @@ function Login() {
 
     return (
         <div className="auth">
+                <i><FaHamburger size="40px"/></i>
                 <h1>Signin</h1>
                 <input type="email" name="email" placeholder="Enter your Email" value={email} onChange={(e)=>setEmail(e.target.value)} />
                 <input type="password" name="password" placeholder="Enter your Password" value={password} onChange={(e)=>setPassword(e.target.value)} />

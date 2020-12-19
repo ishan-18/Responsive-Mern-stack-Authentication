@@ -12,7 +12,7 @@
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #333;
+    color: #fff;
 }
 
 .list ul{
@@ -28,8 +28,8 @@
     margin: 10px;
     text-decoration: none;
     padding: 5px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border-radius: 15px;
 }
 

@@ -10,6 +10,15 @@
   font-family: 'Kanit', sans-serif;
 }
 
+body{
+  height: 100%;
+  width: 100%;
+  background: repeating-linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url("./images/burger2.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+  background-size: cover;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

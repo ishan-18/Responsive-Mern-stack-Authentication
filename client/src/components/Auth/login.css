@@ -6,9 +6,9 @@
     align-items: center;
     height: 100%;
     margin: 2rem auto;
-    border: 1px solid #333;
     padding: 20px;
-    box-shadow: 3px 3px 3px #777;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .auth h1{
@@ -51,6 +51,10 @@
     margin-top: 10px;
     text-decoration: none;
     color: blue
+}
+
+.auth i{
+    color: #333;
 }
 
 @media screen and (max-width: 435px){

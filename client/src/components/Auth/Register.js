@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom';
+import {FaHamburger} from 'react-icons/fa'
 
 function Register() {
 
@@ -31,6 +32,7 @@ function Register() {
 
     return (
         <div className="auth">
+                <i><FaHamburger size="40px"/></i>
                 <h1>Signup</h1>
                 <input type="text" name="name" placeholder="Enter your name" value={name} onChange={(e)=> setName(e.target.value)} />
                 <input type="email" name="email" placeholder="Enter your Email" value={email} onChange={(e) => setEmail(e.target.value)} />
